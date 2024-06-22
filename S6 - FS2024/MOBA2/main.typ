@@ -7,4 +7,4 @@
   ),
 )
 
-#include "./sections/1-template.typ"
+#include "./sections/1-react.typ"

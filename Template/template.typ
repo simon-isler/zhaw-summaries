@@ -28,19 +28,19 @@
   // custom headings
   show heading.where(
     level: 1
-  ): it => block(width: 100%)[
+  ): it => block(width: 100%, spacing: 0.2em)[
     #block(fill: luma(200), inset: 0.35em, it, width: 100%)
   ]
 
   show heading.where(
     level: 2
-  ): it => block(width: 100%)[
+  ): it => block(width: 100%, spacing: 0.2em)[
     #block(fill: luma(230), inset: 0.25em, it, width: 100%)
   ]
 
   show heading.where(
     level: 3
-  ): it => block(width: 100%)[
+  ): it => block(width: 100%, spacing: 0.2em)[
     #block(fill: luma(250), inset: 0.1em, it, width: 100%)
   ]
 
